@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(41, 83, 54);
+}
+
+header {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    max-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 0 0.9em;
+}
+
+.image-promo {
+    background-color: transparent;
+    margin-bottom: 40px;
+    box-shadow: 0 0 400px #0004;
+}
+
+.image-promo img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.tittle-products {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-list-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    cursor: pointer;
+    background-color: transparent;
+    margin-bottom: 40px;
+    padding: 0 0.8em 0;
+}
+
+.card-img {
+    background-color: transparent;
+}
+
+.card-img img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    box-shadow: 0 0 20px #0004;
+    border-radius: 10px 10px 0 0;
+}
+
+.info-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    line-height: 1.8;
+}
+
+.text-product {
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.precio {
+    line-height: 2;
+    color: black;
+}
+
+.pedido { 
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px #0003;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.tittle-pedido {
+    text-align: center;
+    font-size: 28px;
+    padding: 1.4em 0 0.3em;
+    text-decoration-line: underline;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.descripcion-pedido {
+    padding: 0.3em 1.4em 0.3em;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.button-social {
+    width: 30%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h4 {
+    padding: 0.3em 0 0.3em;
+    border: 1px solid rgb(41, 83, 54);
+    text-align: center;
+    border-radius: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+h4:hover {
+    background-color: #EAECEE;
+}
+
